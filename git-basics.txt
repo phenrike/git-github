@@ -8,3 +8,6 @@ git add .
 
 git commit -m "message"
 
+git config --local user.name "Your Name"
+
+git config --local user.email "your@email"
