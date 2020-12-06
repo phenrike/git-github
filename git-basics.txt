@@ -2,7 +2,9 @@ git init
 
 git status
 
-git add file_name.file_extention 
+git add file_name.file_extension 
  
 git add .
+
+git commit -m "message"
 
