@@ -1,17 +1,31 @@
-git init
+Iniciar repositório Git: git init 
 
-git status
+Ver se há mudanças no repositório: git status
 
-git add file_name.file_extension 
+Adicionar mudanças realizadas em um arquivo especifico do repositório: git add file_name.file_extension 
  
-git add .
+Adicionar mudanças realizadas no repositório: git add .
 
-git commit -m "message"
+Commitar as alterações: git commit -m "message"
 
-git config --local user.name "Your Name"
+Configurar nome: git config --local user.name "Your Name"
 
-git config --local user.email "your@email"
+Configurar email: git config --local user.email "your@email"
 
-git log
+Ver histórico de modificações: git log
 
-git log -p
+Ver histórico de modificações com detalhes de alterações: git log -p
+
+Iniciar um repositório servidor: git init --bare
+
+Listar repositórios remotos: git remote
+
+Adicionar repositórios remotos: git remote add URL_REPOSITORIO
+
+Subir arquivos do repositório local para servidor: git push NOME_REPOSITORIO_SERVIDOR NOME_BRANCH
+
+Clonar repositório servidor: git clone URL_REPOSITORIO NOME_DIRETORIO_LOCAL
+
+Renomear repositório clonado: git remote rename origin NOVO_NOME
+
+Baixar arquivos do servidor para repositório local: git pull NOME_REPOSITORIO_SERVIDOR NOME_BRANCH
