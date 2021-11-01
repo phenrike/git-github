@@ -55,3 +55,5 @@ Aplicar stash: git stash apply INDEX_STASH
 Apagar stash da lista: git stash drop INDEX_STASH
 
 Aplicar e apagar stash da lista, pega o último stash: git stash pop
+
+Criar tag: git tag -a NOME_DA_TAG_VERSAO -m "Criação de tag" e git push NOME_REPOSITORIO_SERVIDOR NOME_DA_TAG_VERSAO 
