@@ -20,7 +20,7 @@ Iniciar um repositório servidor: git init --bare
 
 Listar repositórios remotos: git remote
 
-Adicionar repositórios remotos: git remote add URL_REPOSITORIO
+Adicionar repositórios remotos: git remote add NOME_REPOSITORIO_SERVIDOR URL_REPOSITORIO
 
 Subir arquivos do repositório local para servidor: git push NOME_REPOSITORIO_SERVIDOR NOME_BRANCH
 
@@ -29,3 +29,11 @@ Clonar repositório servidor: git clone URL_REPOSITORIO NOME_DIRETORIO_LOCAL
 Renomear repositório clonado: git remote rename origin NOVO_NOME
 
 Baixar arquivos do servidor para repositório local: git pull NOME_REPOSITORIO_SERVIDOR NOME_BRANCH
+
+Listar branchs: git branch
+
+Criar novo branch: git branch NOME_DO_BRANCH
+
+Trocar de branch: git checkout NOME_DO_BRANCH
+
+Criar branch e ir para o branch criado: git checkout -b NOME_DO_BRANCH
