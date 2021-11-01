@@ -45,3 +45,13 @@ Unir alterações de dois branchs sem perder os commits: git checkout NOME_DO_BR
 Ver alterações feitas em um arquivo: git diff --cached NOME_DO_ARQUIVO
 
 Ver graph no log: git log --graph
+
+Guardar alterações sem commitar para poder mexer em outras alterações: git stash
+
+Listar stashs: git stash list
+
+Aplicar stash: git stash apply INDEX_STASH
+
+Apagar stash da lista: git stash drop INDEX_STASH
+
+Aplicar e apagar stash da lista, pega o último stash: git stash pop
