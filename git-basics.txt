@@ -43,3 +43,5 @@ Unir alterações de dois branchs: git checkout NOME_DO_BRANCH_DESTINO e git mer
 Unir alterações de dois branchs sem perder os commits: git checkout NOME_DO_BRANCH_DESTINO e git rebase NOME_DO_BRANCH_ORIGEM
 
 Ver alterações feitas em um arquivo: git diff --cached NOME_DO_ARQUIVO
+
+Ver graph no log: git log --graph
