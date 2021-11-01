@@ -37,3 +37,9 @@ Criar novo branch: git branch NOME_DO_BRANCH
 Trocar de branch: git checkout NOME_DO_BRANCH
 
 Criar branch e ir para o branch criado: git checkout -b NOME_DO_BRANCH
+
+Unir alterações de dois branchs: git checkout NOME_DO_BRANCH_DESTINO e git merge NOME_DO_BRANCH_ORIGEM
+
+Unir alterações de dois branchs sem perder os commits: git checkout NOME_DO_BRANCH_DESTINO e git rebase NOME_DO_BRANCH_ORIGEM
+
+Ver alterações feitas em um arquivo: git diff --cached NOME_DO_ARQUIVO
